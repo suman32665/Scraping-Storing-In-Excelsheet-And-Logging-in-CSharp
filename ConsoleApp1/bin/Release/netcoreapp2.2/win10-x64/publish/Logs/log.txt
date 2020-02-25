@@ -1,0 +1,12 @@
+2020-02-24 18:05:48.6412|ERROR|ConsoleApp1.Program|OpenQA.Selenium.DriverServiceNotFoundException: The file .\chromedriver.exe does not exist. The driver can be downloaded at http://chromedriver.storage.googleapis.com/index.html
+   at OpenQA.Selenium.DriverService..ctor(String servicePath, Int32 port, String driverServiceExecutableName, Uri driverServiceDownloadUrl)
+   at OpenQA.Selenium.Chrome.ChromeDriverService..ctor(String executablePath, String executableFileName, Int32 port)
+   at OpenQA.Selenium.Chrome.ChromeDriver..ctor(String chromeDriverDirectory, ChromeOptions options)
+   at ConsoleApp1.Program.OpenBrowser() in C:\Users\i26826\source\repos\ConsoleApp1\ConsoleApp1\Program.cs:line 75
+   at ConsoleApp1.Program.Main(String[] args) in C:\Users\i26826\source\repos\ConsoleApp1\ConsoleApp1\Program.cs:line 38
+2020-02-24 18:06:53.6932|ERROR|ConsoleApp1.Program|System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\i26826\source\repos\ConsoleApp1\ConsoleApp1\bin\Release\netcoreapp2.2\win10-x64\publish\Output\output20200224.xlsx'.
+   at System.IO.FileStream.ValidateFileHandle(SafeFileHandle fileHandle)
+   at System.IO.FileStream.CreateFileOpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at ConsoleApp1.Program.WriteExcelFile(ExcelPackage package) in C:\Users\i26826\source\repos\ConsoleApp1\ConsoleApp1\Program.cs:line 183
+   at ConsoleApp1.Program.Main(String[] args) in C:\Users\i26826\source\repos\ConsoleApp1\ConsoleApp1\Program.cs:line 42

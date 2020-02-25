@@ -1,0 +1,7 @@
+2020-02-24 17:56:09.7101|ERROR|ConsoleApp1.Program|OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//*[@class='p0c-competition-tables__table'])[1]/tbody/t[1]//*[@class='p0c-competition-tables__team--short-name']"}
+  (Session info: chrome=76.0.3809.100)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at ConsoleApp1.Program.Scrap(ExcelWorksheet ws) in C:\Users\i26826\source\repos\ConsoleApp1\ConsoleApp1\Program.cs:line 85
+   at ConsoleApp1.Program.Main(String[] args) in C:\Users\i26826\source\repos\ConsoleApp1\ConsoleApp1\Program.cs:line 38
